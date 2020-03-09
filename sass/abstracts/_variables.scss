@@ -1,0 +1,16 @@
+// colors
+$brand-color: #34558b;
+$brand-color-dark: darken($brand-color, 15%);
+$brand-color-light: lighten($brand-color, 15%);
+
+$color-black: #000000;
+$color-white: #ffffff;
+
+// font variables
+$default-font-color: #2B2B2B;
+$default-font-size: 1.6rem;
+
+// grid variables
+$grid-width: 114rem;
+$gutter-vertical: 8rem;
+$gutter-horizontal: 4rem;
