@@ -1,0 +1,23 @@
+@import './utilities/_utilities.scss';
+@import './abstracts/_mixins.scss';
+@import './abstracts/_variables.scss';
+@import './layout/_grid.scss';
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: $default-font-size;
+  color: $default-font-color;
+  line-height: 1.7;
+  box-sizing: border-box;
+}

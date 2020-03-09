@@ -1,0 +1,22 @@
+{
+  "name": "pure",
+  "version": "1.0.0",
+  "description": "simple template",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss _assets/css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/runandrerun/pure-template.git"
+  },
+  "author": "andre santiago",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/runandrerun/pure-template/issues"
+  },
+  "homepage": "https://github.com/runandrerun/pure-template#readme",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
